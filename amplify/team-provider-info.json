@@ -9,7 +9,8 @@
       "UnauthRoleName": "amplify-amplifytripsplanner-dev-611ae-unauthRole",
       "StackName": "amplify-amplifytripsplanner-dev-611ae",
       "StackId": "arn:aws:cloudformation:eu-west-3:371447404392:stack/amplify-amplifytripsplanner-dev-611ae/07611200-9045-11ef-a52c-0e0c22a4df9b",
-      "AmplifyAppId": "d2gjhkllmc5j9d"
+      "AmplifyAppId": "d2gjhkllmc5j9d",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-amplifytripsplanner-dev-611ae-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
     },
     "categories": {
       "auth": {
@@ -20,6 +21,12 @@
       },
       "storage": {
         "s3a919b238": {}
+      },
+      "function": {
+        "amplifytripsplannered913b43PostConfirmation": {
+          "deploymentBucketName": "amplify-amplifytripsplanner-dev-611ae-deployment",
+          "s3Key": "amplify-builds/amplifytripsplannered913b43PostConfirmation-5976384758387673546d-build.zip"
+        }
       }
     }
   }
